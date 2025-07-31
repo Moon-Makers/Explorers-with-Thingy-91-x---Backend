@@ -1,0 +1,17 @@
+{
+  "name": "coap-firestore-backend",
+  "version": "1.0.0",
+  "description": "Backend Node.js para recibir datos por CoAP y guardarlos en Firestore (Google Cloud Run)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^7.11.3",
+    "coap": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
